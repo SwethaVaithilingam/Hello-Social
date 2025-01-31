@@ -84,10 +84,30 @@ h1 span, h2 span, h3 span, h4 span, h5 span, h6 span{
     color: #ffc112;
 }
 .color_white{
-    color: #fff;
+    color: #FFFFFF;
 }
 .color_yellow{
-    color: #fedd00
+    color: #fedd00;
+}
+.color_orange{
+    color: #FD902D;
+}
+.backdrop{
+    backdrop-filter: blur(12px);
+}
+.wedostyle{
+   
+        background: linear-gradient(to bottom,  #fedd00, #FD902D);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    
+}
+.wedostyle_content{
+   
+    background: linear-gradient(to bottom, #FD902D,#fedd00,#fedd00,#FD902D, #fedd00,#fedd00,#fedd00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
 }
 .magenta{
     color: #fd0060;

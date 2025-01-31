@@ -350,7 +350,7 @@
     padding-bottom: 230px;
     background: #1d1d1d url(../images/bg/1.jpg) no-repeat scroll center center/cover;
 }
-.aboutBottom{
+/* .aboutBottom{
     background: #ddcc2d ;
     background: -moz-linear-gradient(180deg, #000000 0%, #FD902D  50%, #FDEF2D 100%); 
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #000000), color-stop(50%, #FD902D), color-stop(100%, #FDEF2D));
@@ -359,6 +359,11 @@
     background: -ms-linear-gradient(180deg, #000000 0%, #FD902D 50%, #FDEF2D 100%); 
     background: linear-gradient(180deg, #000000 0%, #FD902D 50%, #FDEF2D 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#FDEF2D',GradientType=1 ); 
+} */
+.aboutBottom{
+    background: url(../images/bg5.jpg) no-repeat fixed center center/cover;
+    filter: contrast(120%) brightness(110%);
+    margin-bottom: 123px;
 }
 .abcontentT{
     text-align: center;
@@ -535,7 +540,7 @@
 [05] WHAT WE DO
 =========================================================================*/
 .whatwe{
-    background: url(../images/bg/2.jpg) no-repeat scroll center center/cover;
+    background: url(../images/whatwedo.jpg) no-repeat scroll center center/cover;
     padding-top: 253px;
     padding-bottom: 223px;
 }
@@ -720,7 +725,7 @@
 [08] TESTMONIAL
 =========================================================================*/
 .testmonialSec{
-    background: url(../images/bg/3.jpg) no-repeat fixed center center/cover;
+    background: url(../images/blogBg3.avif) no-repeat fixed center center/cover;
     margin-bottom: 123px;
 }
 #testmonialCaro{
@@ -827,7 +832,9 @@
 [10] OUR BLOG
 =========================================================================*/
 .blogSection{
-    background: url(../images/bg/5.jpg) no-repeat fixed center center/cover;
+    background: url(../images/blogBG2.png) no-repeat fixed center center/cover;
+    background-attachment: fixed;
+    /* filter: invert(100%) sepia(100%) saturate(500%) hue-rotate(40deg) contrast(200%); */
     padding: 123px 0 140px;
 }
 .singleBlog{
@@ -915,7 +922,7 @@
 }
 .sayThumb img{
     width: 100%;
-    height: auto;
+    height: 320px;
 }
 .saypaddingR{
     padding-right: 60px;
