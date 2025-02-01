@@ -36,7 +36,7 @@
     .abBigtitle h1.lead{
         position: absolute;
         top: -110px;
-        font-size: 112px;
+        font-size: 80px;
     }
 
     .testmonial {
@@ -141,7 +141,7 @@
         top: 30px;
     }
     .abBigtitle h1.lead {
-        font-size: 63px;
+        font-size: 46px;
         top: -94px;
     }
     .singleService{
@@ -326,7 +326,7 @@
         letter-spacing: 0;
     }
     .abBigtitle h1.lead {
-        font-size: 85px;
+        font-size: 50px;
         top: -95px;
     }
     .testmonial {
@@ -462,7 +462,7 @@
         margin-top: 100px;
     }
     .abBigtitle h1.lead {
-        font-size: 60px;
+        font-size: 36px;
         overflow-wrap: break-word;
         line-height: 1.2;
     }
