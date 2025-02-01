@@ -82,7 +82,7 @@
     margin-right: 0;
 }
 .mainMenu ul li a {
-    /* color: #fff; */
+    color: #ffffffbf;
     font-weight: 700;
     letter-spacing: 2.8px;
     text-transform: uppercase;
@@ -154,7 +154,7 @@
 .callus p{
     margin-top: -15px;
     margin-bottom: 0;
-    color: #fff;
+    color: #ffffffbf;
     letter-spacing: 2.8px;
     line-height: 20px;
     text-transform: uppercase;
