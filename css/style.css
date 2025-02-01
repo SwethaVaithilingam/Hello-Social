@@ -40,6 +40,7 @@
     right: 0;
     top: 0;
     width: 100%;
+    background-color: black;
     z-index: 99;
     padding: 37px 90px 23px;
     -webkit-transition: all 500ms ease;
@@ -50,6 +51,8 @@
 }
 .logo {
     position: relative;
+    background-color: white;
+    padding-right: 275px;
     top: -4px;
 }
 .logo h1{
