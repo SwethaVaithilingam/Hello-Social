@@ -76,18 +76,19 @@ button{
     -o-transition: all 300ms ease;
 }
 h1, h2, h3, h4, h5, h6{
-    font-family: 'Poppins', sans-serif;
+    font-family: "Geist", sans-serif;
     color: #000;
     margin: 0 0 15px;
 }
+
 h1 span, h2 span, h3 span, h4 span, h5 span, h6 span{
-    color: #ffc112;
+    color: #fadd37;
 }
 .color_white{
     color: #FFFFFF;
 }
 .color_yellow{
-    color: #fedd00;
+    color: #fab53e;
 }
 .color_orange{
     color: #FD902D;
