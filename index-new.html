@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Hello Social</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css-new/style.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/logo.png">
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader" id="preloader">
+        <div class="loader">
+            <img src="images/loader.gif" alt="Loading...">
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <a href="#home">
+                        <img src="images/horizontal-logo-white.png" alt="Hello Social" class="logo-img">
+                    </a>
+                </div>
+                <nav class="nav" id="nav">
+                    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <ul class="nav-menu">
+                        <li><a href="#home" class="nav-link active">Home</a></li>
+                        <li><a href="#about" class="nav-link">About us</a></li>
+                        <li><a href="#team" class="nav-link">Team</a></li>
+                        <li><a href="#whatwe" class="nav-link">What we do</a></li>
+                        <li><a href="#ourwork" class="nav-link">Work</a></li>
+                        <li><a href="#blog" class="nav-link">Blog</a></li>
+                        <li><a href="#contact" class="nav-link">Get in touch</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-slider">
+            <div class="hero-slide active">
+                <video class="hero-video" autoplay muted loop playsinline>
+                    <source src="images/0122 (1).mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="hero-overlay"></div>
+                <div class="hero-content">
+                    <h5 class="hero-quote">"Grow and succeed digitally, from strategy to execution."</h5>
+                    <h3 class="hero-title">Ignite growth with innovative strategies.</h3>
+                    <a href="#about" class="btn btn-primary">Learn more about us <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="hero-slide">
+                <video class="hero-video" autoplay muted loop playsinline>
+                    <source src="images/0122 (1).mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="hero-overlay"></div>
+                <div class="hero-content">
+                    <h5 class="hero-quote">"Digital strategy, growth, engagement, and success delivered."</h5>
+                    <h3 class="hero-title">Fuel growth with digital innovation.</h3>
+                    <a href="#about" class="btn btn-primary">Learn more about us <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="hero-slide">
+                <video class="hero-video" autoplay muted loop playsinline>
+                    <source src="images/0122 (1).mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="hero-overlay"></div>
+                <div class="hero-content">
+                    <h5 class="hero-quote">"Unlock growth potential with creative digital marketing strategies."</h5>
+                    <h3 class="hero-title">Transform businesses with powerful digital marketing.</h3>
+                    <a href="#about" class="btn btn-primary">Learn more about us <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="hero-controls">
+            <button class="hero-prev" aria-label="Previous slide"><i class="fas fa-chevron-left"></i></button>
+            <button class="hero-next" aria-label="Next slide"><i class="fas fa-chevron-right"></i></button>
+        </div>
+        <div class="hero-indicators"></div>
+        <div class="scroll-indicator">
+            <a href="#team">
+                <img src="images/mouse.png" alt="Scroll down" class="mouse-normal">
+                <img src="images/mouseh.png" alt="Scroll down" class="mouse-hover">
+            </a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="about-top">
+            <div class="container">
+                <h2 class="section-subtitle">What Set's Us Apart</h2>
+                <div class="about-content">
+                    <div class="about-item">
+                        <h3 class="about-title">Our Vision</h3>
+                        <p class="about-text">Tour vision is to be a global leader in integrating digital marketing and cloud technology, transforming the way businesses connect with their audience and manage their assets. We aspire to create a future where businesses, regardless of size, can unlock their full potential through creativity, innovation, and technological excellence.</p>
+                    </div>
+                    <div class="about-item">
+                        <h3 class="about-title">Our Mission</h3>
+                        <p class="about-text">Our mission is to empower businesses by delivering innovative digital marketing strategies and cutting-edge cloud solutions that drive growth, enhance efficiency, and enable seamless digital transformation. We strive to bridge the gap between marketing and technology, providing tailored solutions that help businesses scale, adapt, and thrive in the modern digital landscape.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="about-big-title">
+            <h1>A PLACE WHERE IDEAS GO VIRAL</h1>
+        </div>
+        <div class="about-bottom">
+            <div class="container">
+                <h5 class="about-heading">Your Partners in Digital Success</h5>
+                <ul class="about-list">
+                    <li><i class="fas fa-check"></i> Innovation: Staying ahead of trends to deliver cutting-edge solutions.</li>
+                    <li><i class="fas fa-check"></i> Collaboration: Partnering with you to bring your vision to life.</li>
+                    <li><i class="fas fa-check"></i> Transparency: Building trust through open communication and accountability.</li>
+                </ul>
+            </div>
+        </div>
+        
+        <!-- Services -->
+        <div class="services">
+            <div class="container">
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-image">
+                            <img src="images/services/socialMedia2.jpg" alt="Social Media">
+                        </div>
+                        <h6 class="service-title">Social media</h6>
+                        <p class="service-text">Delivering expert social media solutions—boosting presence, engaging audiences, and driving impactful growth for your brand.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-image">
+                            <img src="images/services/digimark2.png" alt="Digital Marketing">
+                        </div>
+                        <h6 class="service-title">Digital marketing</h6>
+                        <p class="service-text">Elevate your brand with cutting-edge Digital Marketing and SEO strategies. Ignite engagement, amplify reach, and turn visitors into loyal customers.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-image">
+                            <img src="images/services/animations2.png" alt="2D/3D Animation">
+                        </div>
+                        <h6 class="service-title">2D/3D animation</h6>
+                        <p class="service-text">At Hello Social, we bring ideas to life with captivating 2D/3D animations, offering top-notch design, storytelling, and visual effects for businesses and marketing.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-image">
+                            <img src="images/services/video.png" alt="Videos">
+                        </div>
+                        <h6 class="service-title">Videos</h6>
+                        <p class="service-text">Engaging corporate videos communicate your brand, enhance marketing, and connect audiences through visuals and storytelling.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-image">
+                            <img src="images/services/shoots.jpg" alt="Shoots">
+                        </div>
+                        <h6 class="service-title">Shoots</h6>
+                        <p class="service-text">Professional photography and videography capturing stunning visuals to creatively, strategically, and precisely elevate your brand's unique story.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-image">
+                            <img src="images/services/podcast.jpg" alt="Podcast">
+                        </div>
+                        <h6 class="service-title">Podcast</h6>
+                        <p class="service-text">Expert insights and actionable strategies via our podcast on industry trends, business growth, challenges, and innovative solutions for your ultimate success.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-image">
+                            <img src="images/services/contentCreation.jpg" alt="Content Creation">
+                        </div>
+                        <h6 class="service-title">Content creation</h6>
+                        <p class="service-text">We create engaging, high-quality content aligned with your brand, enhancing connection through blogs, social media, and storytelling.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-image">
+                            <img src="images/services/leadGen.png" alt="Lead Generation">
+                        </div>
+                        <h6 class="service-title">Lead Generation</h6>
+                        <p class="service-text">We specialize in lead generation, delivering prospects via data-driven strategies, outreach, and innovative solutions.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-image">
+                            <img src="images/services/web_dev.jpg" alt="Web Development">
+                        </div>
+                        <h6 class="service-title">Web developement</h6>
+                        <p class="service-text">Transform your presence with innovative & passionate web development, delivering stunning, fast, secure websites for your needs.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="team" id="team">
+        <div class="container">
+            <div class="section-header">
+                <h5 class="section-subtitle">meet the team</h5>
+                <h3 class="section-title">Powerful web services for your modern digital needs.</h3>
+            </div>
+            <div class="team-content">
+                <div class="team-image">
+                    <img src="images/teamImage.jpg" alt="Team">
+                </div>
+                <div class="team-testimonials" id="teamTestimonials">
+                    <div class="team-testimonial active">
+                        <p>We focus on what matters most: delivering measurable results. Every campaign we create is tailored to your goals, ensuring maximum ROI and sustained growth.</p>
+                        <div class="team-member">
+                            <h4>ZAMEER NAWAZ</h4>
+                            <p>FOUNDER & CEO</p>
+                        </div>
+                    </div>
+                    <div class="team-testimonial">
+                        <p>No cookie-cutter strategies here. At Hello Social, we take the time to understand your brand, your audience and your challenges to develop customized strategies.</p>
+                        <div class="team-member">
+                            <h4>SHEERIN</h4>
+                            <p>HR & CONTENT WRITER</p>
+                        </div>
+                    </div>
+                    <div class="team-testimonial">
+                        <p>With years of experience across social media, paid advertising, SEO and content marketing, our team brings the expertise you need to stay ahead of the competition.</p>
+                        <div class="team-member">
+                            <h4>RAZEEN</h4>
+                            <p>IT CO-ORDINATOR & WEB DEVELOPER</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-dots">
+                    <span class="dot active" data-index="0"></span>
+                    <span class="dot" data-index="1"></span>
+                    <span class="dot" data-index="2"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- What We Do Section -->
+    <section class="whatwe" id="whatwe">
+        <div class="container">
+            <div class="whatwe-content">
+                <h5 class="section-subtitle">what we do</h5>
+                <h2 class="whatwe-title">we help businesses evolve <span>&</span> grow.</h2>
+                <a href="#about" class="btn btn-primary">Learn more about us <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Work Section -->
+    <section class="ourwork" id="ourwork">
+        <div class="work-carousel" id="workCarousel">
+            <div class="work-item">
+                <img src="images/work/1.jpg" alt="Work 1">
+                <div class="work-content">
+                    <h6>Transforming Brands Through Creative Campaigns</h6>
+                    <h2>Boosted e-commerce sales with targeted branding strategies.</h2>
+                    <div class="work-tags">
+                        <a href="#">Branding</a> / <a href="#">Web Design</a>
+                    </div>
+                </div>
+            </div>
+            <div class="work-item">
+                <img src="images/work/2.jpg" alt="Work 2">
+                <div class="work-content">
+                    <h6>Boosting Engagement with Social Media Mastery</h6>
+                    <h2>Increased restaurant engagement with impactful social media campaigns.</h2>
+                    <div class="work-tags">
+                        <a href="#">Branding</a> / <a href="#">Web Design</a>
+                    </div>
+                </div>
+            </div>
+            <div class="work-item">
+                <img src="images/work/3.jpg" alt="Work 3">
+                <div class="work-content">
+                    <h6>Designing Stunning Websites for Better Conversions</h6>
+                    <h2>Revamped website to increase conversions and user experience.</h2>
+                    <div class="work-tags">
+                        <a href="#">Branding</a> / <a href="#">Web Design</a>
+                    </div>
+                </div>
+            </div>
+            <div class="work-item">
+                <img src="images/work/4.jpg" alt="Work 4">
+                <div class="work-content">
+                    <h6>Powerful Branding Strategies for Real Estate Growth</h6>
+                    <h2>Helped real estate agency dominate with branding strategies.</h2>
+                    <div class="work-tags">
+                        <a href="#">Branding</a> / <a href="#">Web Design</a>
+                    </div>
+                </div>
+            </div>
+            <div class="work-item">
+                <img src="images/work/5.jpg" alt="Work 5">
+                <div class="work-content">
+                    <h6>Driving Sales with Targeted Web Design</h6>
+                    <h2>Optimized fashion brand website for better sales performance.</h2>
+                    <div class="work-tags">
+                        <a href="#">Branding</a> / <a href="#">Web Design</a>
+                    </div>
+                </div>
+            </div>
+            <div class="work-item">
+                <img src="images/work/6.jpg" alt="Work 6">
+                <div class="work-content">
+                    <h6>Leveraging SEO and Content for Digital Success</h6>
+                    <h2>Increased healthcare business visibility with SEO-driven content.</h2>
+                    <div class="work-tags">
+                        <a href="#">Branding</a> / <a href="#">Web Design</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Choose Us Section -->
+    <section class="chooseus" id="chooseus">
+        <div class="container">
+            <div class="section-header">
+                <h5 class="section-subtitle">why choose us?</h5>
+                <h2 class="section-title">At Hello Social, we're more than just a digital marketing agency — we're your growth partners.</h2>
+            </div>
+            <div class="chooseus-content">
+                <div class="chooseus-text">
+                    <h3>Our Team Drives Strategic Digital Growth for Your Brand's Success.</h3>
+                    <p>Hello Social, we do not just market, but strategize, innovate, and tailor solutions for sustainable growth. We run campaigns on branding and web design, SEO and social media for impactful campaigns to engage, convert, and build a strong digital presence.</p>
+                </div>
+                <div class="chooseus-image">
+                    <img src="images/work/work_web.png" alt="Choose Us">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <div class="testimonials-carousel" id="testimonialsCarousel">
+                <div class="testimonial-item active">
+                    <p>Hello Social completely transformed our brand identity with a fresh, modern, and compelling look. Their creative strategies helped us stand out in a crowded market, increasing our audience engagement and brand recognition significantly.</p>
+                    <div class="testimonial-author">
+                        <h4>Aarav M</h4>
+                        <p>Abu Dhabi - UAE</p>
+                    </div>
+                </div>
+                <div class="testimonial-item">
+                    <p>Before Hello Social, our online presence was all over the place. Their expert team redesigned our website and managed social media campaigns to bring in much higher traffic, improved engagement, and increased lead conversions within months.</p>
+                    <div class="testimonial-author">
+                        <h4>Priya R</h4>
+                        <p>Chennai - India</p>
+                    </div>
+                </div>
+                <div class="testimonial-item">
+                    <p>From branding to web design, Hello Social surpassed all our expectations. Their strategic approach, attention to detail, and innovative ideas helped give our business a solid online presence that assisted us in communicating better with our target audience.</p>
+                    <div class="testimonial-author">
+                        <h4>Daniel S</h4>
+                        <p>Bangalore - India</p>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonials-dots">
+                <span class="dot active" data-index="0"></span>
+                <span class="dot" data-index="1"></span>
+                <span class="dot" data-index="2"></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Clients Section -->
+    <section class="clients" id="clients">
+        <div class="container">
+            <div class="section-header">
+                <h5 class="section-subtitle">who we worked for</h5>
+                <h2 class="section-title">Our client experience</h2>
+            </div>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="client-logo">
+                            <a href="#"><img src="images/brands/AL Mizan.png" alt="AL Mizan"></a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="client-logo">
+                            <a href="#"><img src="images/brands/AL Shamekh Auto Care.png" alt="AL Shamekh Auto Care"></a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="client-logo">
+                            <a href="#"><img src="images/brands/Anwar Group.png" alt="Anwar Group"></a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="client-logo">
+                            <a href="#"><img src="images/brands/dubai durbar.png" alt="Dubai Durbar"></a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="client-logo">
+                            <a href="#"><img src="images/brands/dunes logo.png" alt="Dunes"></a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="client-logo">
+                            <a href="#"><img src="images/brands/gulfcuts.png" alt="Gulfcuts"></a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="client-logo">
+                            <a href="#"><img src="images/brands/kattral.png" alt="Kattral"></a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="client-logo">
+                            <a href="#"><img src="images/brands/msme.png" alt="MSME"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section class="blog" id="blog">
+        <div class="container">
+            <div class="section-header">
+                <h5 class="section-subtitle">BLOGS AND INSIGHTS</h5>
+                <h2 class="section-title">Our thoughts</h2>
+            </div>
+            <div class="blog-grid">
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <img src="images/blogImg1.webp" alt="Blog 1">
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-date">January 29, 2025</div>
+                        <h2 class="blog-title"><a href="blog-detail.html">100+ best Instagram username ideas + free username generator</a></h2>
+                        <p class="blog-excerpt">A list of perfect Instagram username ideas for your brand is seconds away with our free AI username generator.</p>
+                        <div class="blog-footer">
+                            <a href="https://blog.hootsuite.com/instagram-username-ideas/" class="blog-link">
+                                <img src="images/comment.png" alt="Read more"> Read more
+                            </a>
+                        </div>
+                    </div>
+                </article>
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <img src="images/blogImg2.webp" alt="Blog 2">
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-date">January 27, 2025</div>
+                        <h2 class="blog-title"><a href="blog-detail.html">The best time to post on Facebook</a></h2>
+                        <p class="blog-excerpt">We analyzed thousands of Facebook posts from businesses of all sizes to find the ultimate best times to post on Facebook.</p>
+                        <div class="blog-footer">
+                            <a href="https://blog.hootsuite.com/best-time-to-post-on-facebook/" class="blog-link">
+                                <img src="images/comment.png" alt="Read more"> Read more
+                            </a>
+                        </div>
+                    </div>
+                </article>
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <img src="images/blogImg3.webp" alt="Blog 3">
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-date">January 27, 2025</div>
+                        <h2 class="blog-title"><a href="blog-detail.html">How to make a social media posting schedule</a></h2>
+                        <p class="blog-excerpt">You've got great content — let's make sure people see it. Perfect your own social media posting schedule with our free template.</p>
+                        <div class="blog-footer">
+                            <a href="https://blog.hootsuite.com/social-media-posting-schedule/" class="blog-link">
+                                <img src="images/comment.png" alt="Read more"> Read more
+                            </a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Say Hello Section -->
+    <section class="sayhello" id="sayhello">
+        <div class="container">
+            <div class="section-header">
+                <h5 class="section-subtitle">we would love to hear from you</h5>
+                <h2 class="section-title">say hello!</h2>
+            </div>
+            <div class="locations-grid">
+                <div class="location-card">
+                    <div class="location-image">
+                        <a href="https://www.google.com/maps/search/Old+No:+46,+2nd+Floor,+Poes+Main+Road,+Teynampet,+Chennai+-+600018+/@13.0415662,80.2489006,17z/data=!3m1!4b1?entry=ttu&g_ep=EgoyMDI1MDEyOC4wIKXMDSoASAFQAw%3D%3D">
+                            <img src="images/Chennai_Central.jpg" alt="Chennai">
+                            <h3>Chennai</h3>
+                        </a>
+                    </div>
+                    <div class="location-info">
+                        <h6>INDIA OFFICE - HEAD</h6>
+                        <p>Old No: 46, 2nd Floor,<br>Poes Main Road,<br>Teynampet,<br>Chennai - 600018</p>
+                        <h6>+91 9600369816 (IND)</h6>
+                    </div>
+                </div>
+                <div class="location-card">
+                    <div class="location-image">
+                        <a href="https://www.google.com/maps/search/Al+nahda+second,+Near+pond+park,+Dubai./@25.2540438,55.2557238,12z/data=!3m1!4b1?entry=ttu&g_ep=EgoyMDI1MDEyOC4wIKXMDSoASAFQAw%3D%3D">
+                            <img src="images/dubai.avif" alt="Dubai">
+                            <h3>Dubai</h3>
+                        </a>
+                    </div>
+                    <div class="location-info">
+                        <h6>DUBAI BRANCH</h6>
+                        <p>Al nahda second,<br>Near pond park,<br>Dubai</p>
+                        <h6>+971 563585567 (UAE)</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-inner">
+                <h3>Have a question? or just say hello!</h3>
+                <form action="mail.php" method="post" id="contactForm" class="contact-form">
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label for="con_name">Name:</label>
+                            <input type="text" name="con_name" id="con_name" class="form-input" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="con_phone">Phone:</label>
+                            <input type="text" name="con_phone" id="con_phone" class="form-input" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="con_email">Email:</label>
+                            <input type="email" name="con_email" id="con_email" class="form-input" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="con_company">Company:</label>
+                            <input type="text" name="con_company" id="con_company" class="form-input" required>
+                        </div>
+                        <div class="form-group full-width">
+                            <label for="con_msg">Message:</label>
+                            <textarea id="con_msg" name="con_msg" class="form-input" rows="5" required></textarea>
+                        </div>
+                        <div class="form-group full-width text-center">
+                            <button type="submit" class="btn btn-primary">SEND</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <a href="#home"><img src="images/horizontal-logo-white.png" alt="Hello Social"></a>
+                    </div>
+                    <h3>About <b>Hello Social</b></h3>
+                    <p>Hello Social is a team of experts in branding, web design, SEO, and social media, crafting data-driven strategies to elevate brands and drive real results.</p>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-icon" aria-label="Twitter"><i class="fab fa-x-twitter"></i></a>
+                        <a href="#" class="social-icon" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3>Location <b>Details</b></h3>
+                    <div class="footer-info">
+                        <p><i class="fas fa-map-marker-alt"></i> <b>Head office:</b> Old No: 46, 2nd Floor, Poes Main Road, Teynampet, Chennai - 600018</p>
+                        <p><i class="fas fa-phone"></i> <b>+91 9600369816 (IND)</b></p>
+                        <p><i class="fas fa-phone"></i> <b>+971 563585567 (UAE)</b></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Copyright -->
+    <section class="copyright">
+        <div class="container">
+            <p>&copy; 2025 HELLO SOCIAL. All Rights Reserved to Hello Social</p>
+        </div>
+    </section>
+
+    <!-- Success Messages -->
+    <div class="success-message" id="contactSuccess">
+        <div class="success-content">
+            <i class="fas fa-thumbs-up"></i>
+            <p>Your Message successfully sent!</p>
+        </div>
+    </div>
+
+    <!-- Back to Top -->
+    <a href="#home" class="back-to-top" id="backToTop" aria-label="Back to top">
+        <i class="fas fa-angle-double-up"></i>
+    </a>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="js-new/main.js"></script>
+</body>
+</html>
+
